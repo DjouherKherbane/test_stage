@@ -7,7 +7,7 @@ sur windows: "python server.py <num_port>"
 sur linux : "sudo python3 server.py <num_port>"
 sachant qu'il faut choisir un numerio de port sur lequel la page  sera affichée.
 
-## Gener le fichier JSON avec la commande suivante:
+## Generer le fichier JSON avec la commande suivante:
 "python3 get_issues.py"
 
 ## Pour lancer notre page:
