@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example</title>
+<script type="text/javascript" src="data.json"></script>
+<script >
+
+function readTextFile(file, callback) {
+    var rawFile = new XMLHttpRequest();
+    rawFile.overrideMimeType("application/json");
+    rawFile.open("GET", file, true);
+    rawFile.onreadystatechange = function() {
+        if (rawFile.readyState === 4 && rawFile.status == "200") {
+            callback(rawFile.responseText);
+        }
+    }
+    rawFile.send(null);
+}
+
+//usage:
+readTextFile("/home/igm/Bureau/Test_stage_ftn/API/js/data.json", function(text){
+    var data = JSON.parse(text);
+    console.log(data);
+});
+</script>
+
+    </head>
+    <body>
+        <p></p>
+    </body>
+</html>
