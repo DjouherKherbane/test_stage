@@ -1,31 +1,40 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Example</title>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Github Issues</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="row col-11 d-flex justify-content-center m-auto">
+        <div class="card col-12 p-0">
+
+            <div class="card-header" id="numIssues"></div>
+            <div class="card-text" id="issues">
+
+            </div>
+        </div>
+    </div>
+
+</body>
 <script type="text/javascript" src="data.json"></script>
-<script >
-
-function readTextFile(file, callback) {
-    var rawFile = new XMLHttpRequest();
-    rawFile.overrideMimeType("application/json");
-    rawFile.open("GET", file, true);
-    rawFile.onreadystatechange = function() {
-        if (rawFile.readyState === 4 && rawFile.status == "200") {
-            callback(rawFile.responseText);
-        }
-    }
-    rawFile.send(null);
-}
-
-//usage:
-readTextFile("/home/igm/Bureau/Test_stage_ftn/API/js/data.json", function(text){
-    var data = JSON.parse(text);
-    console.log(data);
-});
+<script>
+    $.getJSON("data.json", function (json) {
+        var myDataIssues = json;
+        var divIssue = document.getElementById("issues");
+        // console.log(divIssue);
+        document.getElementById("numIssues").innerHTML = "<div class='row d-flex flex-row justify-content-between p-2'> <div class='title'><h4>My Issues:</h4></div><div class='countIssues text-danger'> <span class='text-secondary align-middle'>count: </span><span class='align-middle'>" + json.length + "</span></div></div>"
+        myDataIssues.map((issue) => {
+            console.log(issue)
+            return divIssue.innerHTML = divIssue.innerHTML + "<div class='issue list-group-item d-flex flex-row justify-content-between'><div class='title text-primary'>" + issue.title + "</div><div class='number'>" + issue.number + "</div></div>"
+        })
+    });
 </script>
 
-    </head>
-    <body>
-        <p></p>
-    </body>
 </html>

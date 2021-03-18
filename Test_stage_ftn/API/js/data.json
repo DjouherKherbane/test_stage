@@ -1,1 +1,329 @@
-{"issues": [{"title": "Adding delete review function", "number": 1884}, {"title": "Adding delete_review_function", "number": 1883}, {"title": "Adding delete_review function", "number": 1880}, {"title": "Test repr() for PublicKey", "number": 1879}, {"title": "Bug in repr(PublicKey)", "number": 1878}, {"title": "repo.get_stargazers().totalCount does not return a value higher than 40000", "number": 1876}, {"title": "How to know if a File in commit.files has been deleted or not?", "number": 1875}, {"title": "Documentation - Features for unreleased versions", "number": 1873}, {"title": "Add support for the 'visibility' attribute on the Repository object", "number": 1872}, {"title": "top-level directory in tarball is different when using `get_latest_release()` than on the tags page", "number": 1871}, {"title": "Auth failure: `github.GithubException.GithubException: 401 {\"message\": \"Must authenticate to access this API.\"...}`", "number": 1865}, {"title": "Can I create an organization in GHE?", "number": 1863}, {"title": "get_stats_commit_activity gets into an infinite loop if the url returns 202 status code", "number": 1862}, {"title": "Update token used by requester", "number": 1860}, {"title": "GitHub Class Doesn't Clean-up Connections After Use", "number": 1859}, {"title": "ImportError: cannot import name 'Github' from partially initialized module 'github'", "number": 1858}, {"title": "Add default arguments to Workflow method type annotations", "number": 1857}, {"title": "Is there a way to delete a PR review?", "number": 1856}, {"title": "Include GitHub App usage in doc/examples", "number": 1855}, {"title": "AuthenticatedUser.get_emails() returned data changed to list of dicts", "number": 1852}, {"title": "Updating links to Github documentation", "number": 1850}, {"title": "Fix copy and paste error in get _checks_runs", "number": 1849}, {"title": "Request for a new release", "number": 1847}, {"title": "Is there anyway to get only those repos which have latest activity? (From Specified time)", "number": 1846}, {"title": "Copy Paste error in get_check_runs()", "number": 1843}, {"title": "add parent_team_id parameter to create_team", "number": 1840}, {"title": "Create team is missing parent_team_id parameter", "number": 1839}, {"title": "Add GitRelease.upload_asset_from_memory stub", "number": 1834}, {"title": "contents.decoded_content python types error", "number": 1833}, {"title": "allow PyJWT 2+", "number": 1832}, {"title": "Make datetime objects timezone-aware", "number": 1831}, {"title": "Return None for get_readme()", "number": 1829}, {"title": "Support for per_page in get_users method", "number": 1828}, {"title": "Cannot get private repos of user", "number": 1827}, {"title": "Hashable classes", "number": 1826}, {"title": "Inaccurate Branch Protection Options", "number": 1825}, {"title": "repository.get_pending_invitations intermittently fails unhelpfully", "number": 1820}, {"title": "fix bad assertions in github.Project.edit", "number": 1817}, {"title": "Handling hitting abuse detection limits and using Retry-After", "number": 1814}, {"title": "Adding attributes \"maintain\" and \"triage\" to class \"Permissions\"", "number": 1810}, {"title": "Attributes \"maintain\" and \"triage\" missing in class \"Permissions\"", "number": 1809}, {"title": "Allow adding attributes at the end of the list", "number": 1807}, {"title": "Adding new attribute fails in case new name is the last in the list", "number": 1806}, {"title": "Release a version that supports Python 3.5 and requires pyjwt<2.0.0", "number": 1801}, {"title": "get_users fails to retrieve thousands of users", "number": 1798}, {"title": "Traffice API is broken", "number": 1795}, {"title": "Bad Github App auth raises generic exception, not BadCredentialsException", "number": 1794}, {"title": "Getting new commits sha after merging of pull request ", "number": 1792}, {"title": "Update Installation object with attributes and related methods", "number": 1791}, {"title": "Getting a lot of 409 Conflict errors in response and the error message is unclear", "number": 1787}, {"title": "Implementing logic for deleting and restoring a branch associated with a PR", "number": 1784}, {"title": "Way to get all the installed GitHub apps in the org", "number": 1781}, {"title": "Return MainClass.Github.get_installation(id)", "number": 1776}, {"title": "Added twitter_username attribute", "number": 1775}, {"title": "The query run error results", "number": 1773}, {"title": "add ldap_dn attribute for teams, as described in https://developer.gi\u2026", "number": 1772}, {"title": "Add app_push_restrictions support for branch-protections", "number": 1771}, {"title": "Add 'twitter_username' ", "number": 1768}, {"title": "making PyGithub citable", "number": 1761}, {"title": "No examples or documentation around working with pull request reviews", "number": 1758}, {"title": "Bad Credentials, token works fine with `curl`", "number": 1753}, {"title": "Update README.md", "number": 1752}, {"title": "[FEAT] support discussion comments", "number": 1750}, {"title": "add transfer method", "number": 1749}, {"title": "Search repositories duplicates ", "number": 1748}, {"title": "Support repository transfer", "number": 1746}, {"title": "Potential enhancement working with forks", "number": 1736}, {"title": "Support for artifacts API", "number": 1734}, {"title": "Sporadically Git tree creation failure due to `base_tree is not a valid tree oid`", "number": 1732}, {"title": "Add example for reading text from a file", "number": 1725}, {"title": "create_review_comment function can't comment on comfort-fade preview", "number": 1721}, {"title": "OAuth access token Failure Errors are Masked", "number": 1718}, {"title": "`get_login_url` to support the scope parameter", "number": 1717}, {"title": "github.BranchProtection.BranchProtection missing 3 attributes", "number": 1716}, {"title": "Project card information in issue events", "number": 1714}, {"title": "get_issues unsuported operand", "number": 1709}, {"title": "Adding the team-sync endpoints", "number": 1702}, {"title": "GET /repositories endpoint on Github iterate over paginated list is slow", "number": 1701}, {"title": "403 error for otherwise functional token", "number": 1700}, {"title": "Fix issue 1335: org dismissal restrictions", "number": 1688}, {"title": "Adding a team with permission to a repository is failing", "number": 1686}, {"title": "get followers of specific repository", "number": 1683}, {"title": "Issue 1655: Add authorize credentials list and removal on organization under SAML", "number": 1676}, {"title": "AuthenticatedUser.get_notifications() boolean query parameters always return true.", "number": 1671}, {"title": "Add parent_team_id support", "number": 1669}, {"title": "Add link to more examples", "number": 1667}, {"title": "Adding authorize credentials listing and delete in a organisation", "number": 1655}, {"title": "Inconsistent response when querying branch protection settings", "number": 1650}, {"title": "unable to read or set the owners for an organization", "number": 1477}, {"title": "Add support for modifying PR draft status", "number": 1461}, {"title": "SCIM API for SAML linked accounts", "number": 1448}, {"title": "Support new 'visibility' field of Repository", "number": 1446}, {"title": "Adds support to create repository from a template", "number": 1395}, {"title": "GitHub Actions support", "number": 1373}, {"title": "search_issues() result has totalCount maxed out to 1000", "number": 1309}, {"title": "Support all features of SourceImport", "number": 1298}, {"title": "Support  application/vnd.github.VERSION.diff", "number": 983}, {"title": "PyGithub example usage", "number": 874}, {"title": "usage of suspend a github enterprise user", "number": 852}, {"title": "Support for github apps", "number": 828}, {"title": "Support for github enterprise pre-receive-hooks", "number": 739}, {"title": "GithubIntegration with APP specific APIs", "number": 725}, {"title": "GPG signatures for source validation", "number": 721}, {"title": "Delete/restore branch associated with a pull request", "number": 580}, {"title": "ETag not supported to make conditional requests through API?", "number": 536}, {"title": "Test recorder adds wrong string for token authorization", "number": 516}, {"title": "Handling new milestone and label events", "number": 503}, {"title": "Docstrings problem", "number": 427}, {"title": "Feature request", "number": 423}]}
+[{
+    "title": "Adding delete review function",
+    "number": 1884
+}, {
+    "title": "Adding delete_review_function",
+    "number": 1883
+}, {
+    "title": "Adding delete_review function",
+    "number": 1880
+}, {
+    "title": "Test repr() for PublicKey",
+    "number": 1879
+}, {
+    "title": "Bug in repr(PublicKey)",
+    "number": 1878
+}, {
+    "title": "repo.get_stargazers().totalCount does not return a value higher than 40000",
+    "number": 1876
+}, {
+    "title": "How to know if a File in commit.files has been deleted or not?",
+    "number": 1875
+}, {
+    "title": "Documentation - Features for unreleased versions",
+    "number": 1873
+}, {
+    "title": "Add support for the 'visibility' attribute on the Repository object",
+    "number": 1872
+}, {
+    "title": "top-level directory in tarball is different when using `get_latest_release()` than on the tags page",
+    "number": 1871
+}, {
+    "title": "Auth failure: `github.GithubException.GithubException: 401 {\"message\": \"Must authenticate to access this API.\"...}`",
+    "number": 1865
+}, {
+    "title": "Can I create an organization in GHE?",
+    "number": 1863
+}, {
+    "title": "get_stats_commit_activity gets into an infinite loop if the url returns 202 status code",
+    "number": 1862
+}, {
+    "title": "Update token used by requester",
+    "number": 1860
+}, {
+    "title": "GitHub Class Doesn't Clean-up Connections After Use",
+    "number": 1859
+}, {
+    "title": "ImportError: cannot import name 'Github' from partially initialized module 'github'",
+    "number": 1858
+}, {
+    "title": "Add default arguments to Workflow method type annotations",
+    "number": 1857
+}, {
+    "title": "Is there a way to delete a PR review?",
+    "number": 1856
+}, {
+    "title": "Include GitHub App usage in doc/examples",
+    "number": 1855
+}, {
+    "title": "AuthenticatedUser.get_emails() returned data changed to list of dicts",
+    "number": 1852
+}, {
+    "title": "Updating links to Github documentation",
+    "number": 1850
+}, {
+    "title": "Fix copy and paste error in get _checks_runs",
+    "number": 1849
+}, {
+    "title": "Request for a new release",
+    "number": 1847
+}, {
+    "title": "Is there anyway to get only those repos which have latest activity? (From Specified time)",
+    "number": 1846
+}, {
+    "title": "Copy Paste error in get_check_runs()",
+    "number": 1843
+}, {
+    "title": "add parent_team_id parameter to create_team",
+    "number": 1840
+}, {
+    "title": "Create team is missing parent_team_id parameter",
+    "number": 1839
+}, {
+    "title": "Add GitRelease.upload_asset_from_memory stub",
+    "number": 1834
+}, {
+    "title": "contents.decoded_content python types error",
+    "number": 1833
+}, {
+    "title": "allow PyJWT 2+",
+    "number": 1832
+}, {
+    "title": "Make datetime objects timezone-aware",
+    "number": 1831
+}, {
+    "title": "Return None for get_readme()",
+    "number": 1829
+}, {
+    "title": "Support for per_page in get_users method",
+    "number": 1828
+}, {
+    "title": "Cannot get private repos of user",
+    "number": 1827
+}, {
+    "title": "Hashable classes",
+    "number": 1826
+}, {
+    "title": "Inaccurate Branch Protection Options",
+    "number": 1825
+}, {
+    "title": "repository.get_pending_invitations intermittently fails unhelpfully",
+    "number": 1820
+}, {
+    "title": "fix bad assertions in github.Project.edit",
+    "number": 1817
+}, {
+    "title": "Handling hitting abuse detection limits and using Retry-After",
+    "number": 1814
+}, {
+    "title": "Adding attributes \"maintain\" and \"triage\" to class \"Permissions\"",
+    "number": 1810
+}, {
+    "title": "Attributes \"maintain\" and \"triage\" missing in class \"Permissions\"",
+    "number": 1809
+}, {
+    "title": "Allow adding attributes at the end of the list",
+    "number": 1807
+}, {
+    "title": "Adding new attribute fails in case new name is the last in the list",
+    "number": 1806
+}, {
+    "title": "Release a version that supports Python 3.5 and requires pyjwt<2.0.0",
+    "number": 1801
+}, {
+    "title": "get_users fails to retrieve thousands of users",
+    "number": 1798
+}, {
+    "title": "Traffice API is broken",
+    "number": 1795
+}, {
+    "title": "Bad Github App auth raises generic exception, not BadCredentialsException",
+    "number": 1794
+}, {
+    "title": "Getting new commits sha after merging of pull request ",
+    "number": 1792
+}, {
+    "title": "Update Installation object with attributes and related methods",
+    "number": 1791
+}, {
+    "title": "Getting a lot of 409 Conflict errors in response and the error message is unclear",
+    "number": 1787
+}, {
+    "title": "Implementing logic for deleting and restoring a branch associated with a PR",
+    "number": 1784
+}, {
+    "title": "Way to get all the installed GitHub apps in the org",
+    "number": 1781
+}, {
+    "title": "Return MainClass.Github.get_installation(id)",
+    "number": 1776
+}, {
+    "title": "Added twitter_username attribute",
+    "number": 1775
+}, {
+    "title": "The query run error results",
+    "number": 1773
+}, {
+    "title": "add ldap_dn attribute for teams, as described in https://developer.gi\u2026",
+    "number": 1772
+}, {
+    "title": "Add app_push_restrictions support for branch-protections",
+    "number": 1771
+
+}, {
+    "title": "Add 'twitter_username' ",
+    "number": 1768
+}, {
+    "title": "making PyGithub citable",
+    "number": 1761
+}, {
+    "title": "No examples or documentation around working with pull request reviews",
+    "number": 1758
+}, {
+    "title": "Bad Credentials, token works fine with `curl`",
+    "number": 1753
+}, {
+    "title": "Update README.md",
+    "number": 1752
+}, {
+    "title": "[FEAT] support discussion comments",
+    "number": 1750
+}, {
+    "title": "add transfer method",
+    "number": 1749
+}, {
+    "title": "Search repositories duplicates ",
+    "number": 1748
+}, {
+    "title": "Support repository transfer",
+    "number": 1746
+}, {
+    "title": "Potential enhancement working with forks",
+    "number": 1736
+}, {
+    "title": "Support for artifacts API",
+    "number": 1734
+}, {
+    "title": "Sporadically Git tree creation failure due to `base_tree is not a valid tree oid`",
+    "number": 1732
+}, {
+    "title": "Add example for reading text from a file",
+    "number": 1725
+}, {
+    "title": "create_review_comment function can't comment on comfort-fade preview",
+    "number": 1721
+}, {
+    "title": "OAuth access token Failure Errors are Masked",
+    "number": 1718
+}, {
+    "title": "`get_login_url` to support the scope parameter",
+    "number": 1717
+}, {
+    "title": "github.BranchProtection.BranchProtection missing 3 attributes",
+    "number": 1716
+}, {
+    "title": "Project card information in issue events",
+    "number": 1714
+}, {
+    "title": "get_issues unsuported operand",
+    "number": 1709
+}, {
+    "title": "Adding the team-sync endpoints",
+    "number": 1702
+}, {
+    "title": "GET /repositories endpoint on Github iterate over paginated list is slow",
+    "number": 1701
+}, {
+    "title": "403 error for otherwise functional token",
+    "number": 1700
+}, {
+    "title": "Fix issue 1335: org dismissal restrictions",
+    "number": 1688
+}, {
+    "title": "Adding a team with permission to a repository is failing",
+    "number": 1686
+}, {
+    "title": "get followers of specific repository",
+    "number": 1683
+}, {
+    "title": "Issue 1655: Add authorize credentials list and removal on organization under SAML",
+    "number": 1676
+}, {
+    "title": "AuthenticatedUser.get_notifications() boolean query parameters always return true.",
+    "number": 1671
+}, {
+    "title": "Add parent_team_id support",
+    "number": 1669
+}, {
+    "title": "Add link to more examples",
+    "number": 1667
+}, {
+    "title": "Adding authorize credentials listing and delete in a organisation",
+    "number": 1655
+}, {
+    "title": "Inconsistent response when querying branch protection settings",
+    "number": 1650
+}, {
+    "title": "unable to read or set the owners for an organization",
+    "number": 1477
+}, {
+    "title": "Add support for modifying PR draft status",
+    "number": 1461
+}, {
+    "title": "SCIM API for SAML linked accounts",
+    "number": 1448
+}, {
+    "title": "Support new 'visibility' field of Repository",
+    "number": 1446
+}, {
+    "title": "Adds support to create repository from a template",
+    "number": 1395
+}, {
+    "title": "GitHub Actions support",
+    "number": 1373
+}, {
+    "title": "search_issues() result has totalCount maxed out to 1000",
+    "number": 1309
+}, {
+    "title": "Support all features of SourceImport",
+    "number": 1298
+}, {
+    "title": "Support  application/vnd.github.VERSION.diff",
+    "number": 983
+}, {
+    "title": "PyGithub example usage",
+    "number": 874
+}, {
+    "title": "usage of suspend a github enterprise user",
+    "number": 852
+}, {
+    "title": "Support for github apps",
+    "number": 828
+}, {
+    "title": "Support for github enterprise pre-receive-hooks",
+    "number": 739
+}, {
+    "title": "GithubIntegration with APP specific APIs",
+    "number": 725
+}, {
+    "title": "GPG signatures for source validation",
+    "number": 721
+}, {
+    "title": "Delete/restore branch associated with a pull request",
+    "number": 580
+}, {
+    "title": "ETag not supported to make conditional requests through API?",
+    "number": 536
+}, {
+    "title": "Test recorder adds wrong string for token authorization",
+    "number": 516
+}, {
+    "title": "Handling new milestone and label events",
+    "number": 503
+}, {
+    "title": "Docstrings problem",
+    "number": 427
+}, {
+    "title": "Feature request",
+    "number": 423
+}]
